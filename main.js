@@ -23,7 +23,7 @@ function sorte(){
     randomNumber = Math.round(Math.random() * 10)
     let phrase = document.querySelector(".screen2 p").innerHTML = phrases[randomNumber]
 }
-
+sorte()
 //eventos
 btnTry.addEventListener('click', handleTryClick)
 btnReset.addEventListener('click', handleResetClick)
